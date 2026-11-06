@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Auto Backup on Android 11 and older (android:fullBackupContent).
+
+    Backed up: the measurement log (databases/ruler-log.db) and the settings
+    (files/datastore/settings.preferences_pb) — the user's own data and choices.
+
+    Not backed up: the calibration file. It holds pixels per millimetre, the bezel inset and the level
+    zero measured on *this* screen and *this* sensor. Restored onto another phone it would be presented
+    as a measured calibration that was never measured there (DECISIONS.md rules 4 and 5); the new phone
+    starts from its labelled estimate instead. Keep in step with data_extraction_rules.xml.
+-->
+<full-backup-content>
+    <exclude domain="file" path="datastore/calibration.preferences_pb" />
+</full-backup-content>

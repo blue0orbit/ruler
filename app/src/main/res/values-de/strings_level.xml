@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level_waiting">Warte auf den Sensor…</string>
+    <string name="level_zeroing">Bitte still halten…</string>
+    <string name="level_caption_tilt">Neigung zur Waagerechten</string>
+    <string name="level_caption_tilt_zeroed">Neigung zu Ihrer Fläche</string>
+    <string name="level_axes_format">Seitlich %1$s° · Oben/unten %2$s°</string>
+    <string name="level_announce_level_format">Gerade, %1$s Grad</string>
+    <string name="level_announce_not_level_format">Nicht gerade, %1$s Grad</string>
+    <string name="level_zero_set">Fläche als gerade gesetzt</string>
+    <string name="level_zero_cleared">Gerade-Einstellung entfernt</string>
+    <string name="level_undo">Rückgängig</string>
+    <string name="level_zero_not_saved">Speichern fehlgeschlagen. Die Einstellung gilt, bis Sie die App schließen.</string>
+</resources>

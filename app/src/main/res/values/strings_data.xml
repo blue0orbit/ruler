@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Log, Settings and Calibration confirmations. Every action that changes stored data says so in the
+     app's one snackbar channel (core/ui/AppMessages.kt), and the destructive ones offer Undo instead of a
+     confirm step. Sentence case; the caps registers are applied at the call site (DECISIONS M19). -->
+<resources>
+    <string name="message_undo">Undo</string>
+    <string name="message_calibration_saved">Calibration saved</string>
+    <string name="message_calibration_save_failed">Couldn\'t save the calibration</string>
+    <string name="message_calibration_reset">Back to the starting estimate</string>
+    <string name="message_inset_saved">Bezel inset saved</string>
+    <string name="message_log_deleted">Measurement deleted</string>
+    <string name="message_log_saved">Saved</string>
+    <string name="message_log_save_failed">Couldn\'t save the change. The measurement is no longer in the log.</string>
+    <string name="message_log_restore_failed">Couldn\'t put the measurement back</string>
+    <!-- Rule 14: an inset that is not a number is refused with a reason, never saved as 0 mm. -->
+    <string name="settings_inset_invalid_format">Type a number from 0 to %1$s mm, for example 1.5</string>
+    <string name="log_share_chooser">Send the log with</string>
+    <string name="log_export_no_app">No app on this phone can save a file</string>
+</resources>

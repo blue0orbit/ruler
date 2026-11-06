@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive launcher icon (DESIGN.md §11). minSdk 26 means `anydpi-v26` covers every supported
+    device, so there is no density PNG set to maintain. `monochrome` is read from API 33 and ignored
+    below it, which is the intended behaviour: themed icons get the silhouette, older launchers get
+    the coloured plate.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+</adaptive-icon>

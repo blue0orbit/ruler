@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M15 (rule 13): "segment" was the internal name for one screen-length step. The screen says
+         "mark", because that is the action the button performs. -->
+    <plurals name="extend_segments">
+        <item quantity="zero">No marks yet</item>
+        <item quantity="one">%1$d mark</item>
+        <item quantity="other">%1$d marks</item>
+    </plurals>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ruler</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_log">Log</string>
+    <string name="nav_extend">Extend</string>
+
+    <!-- M15 (rule 13): the wording on these screens is plain language. The reading, the accuracy and
+         the Pro gate are all still stated; only the words changed. -->
+    <string name="level_title">Bubble level</string>
+    <string name="level_pro_locked">Level and protractor are part of Pro. The ruler, units, calibration, log and export stay free.</string>
+    <string name="level_zero">Set this as flat</string>
+    <string name="level_clear_zero">Undo flat setting</string>
+    <string name="level_flat">Level</string>
+    <string name="level_not_flat">Not level</string>
+    <!-- With no zero set the reading is the raw tilt from horizontal, so it must not claim to be
+         measured against a surface the user never zeroed on (M11R, same rule as finding 3). -->
+    <string name="level_direction_format">Downhill direction: %1$s°</string>
+    <!-- Rule 5 in words: the sensor reports a status, not an angle, and the number beside it is a
+         stated assumption for that status. "typical ±1.0°, assumed" said the same thing in symbols. -->
+    <string name="level_accuracy_format">How sure the tilt reading is: %1$s. It is usually within about %2$s°.</string>
+    <string name="accuracy_high">high</string>
+    <string name="accuracy_medium">medium</string>
+    <string name="accuracy_low">low</string>
+    <string name="accuracy_unreliable">unreliable</string>
+    <string name="accuracy_unknown">not reported</string>
+    <string name="level_sensor_missing">This phone has no tilt sensor, so there is nothing to read here. The ruler, log and export still work.</string>
+
+    <string name="protractor_title">Protractor</string>
+    <string name="protractor_hint">Lay the phone flat along the first edge, then tap Set first edge. The dashed line shows how the phone is tilted right now.</string>
+    <string name="protractor_first_reference">Set first edge</string>
+    <string name="protractor_second_reference">Set second edge</string>
+    <string name="protractor_clear">Start over</string>
+    <string name="protractor_angle_format">Angle: %1$s° (%2$s grad)</string>
+    <!-- Rule 12: grads are a second unit for the same angle. Simple mode shows the angle once. -->
+    <string name="protractor_angle_simple_format">Angle: %1$s°</string>
+
+    <string name="extend_title">Extend mode</string>
+    <string name="extend_pro_locked">Extend mode is part of Pro. The ruler, units, calibration, log and export stay free.</string>
+    <string name="extend_hint">Put one end of the object on the start line. Touch or drag on the ruler to move the mark to the object’s other end, then tap Add. If the object is longer than the screen, leave the mark at the screen edge and add that.</string>
+    <string name="extend_undo">Undo last mark</string>
+    <string name="extend_total_format">Total %1$s %2$s ± %3$s mm</string>
+    <!-- Rule 13: the same bound, said as "give or take" instead of the ± symbol. -->
+    <string name="extend_total_simple_format">Total: %1$s %2$s, give or take %3$s mm</string>
+    <!-- Rule 13: named for the unit, not for the system. "Imperial" is a word about measurement systems;
+         the reader wants to know what the second number is in. -->
+    <string name="extend_imperial_format">In inches: %1$s</string>
+    <string name="extend_estimate_note">Each mark adds a little error, so the total is an estimate, not a guarantee.</string>
+    <string name="extend_segment_format">Mark %1$d: %2$s mm</string>
+
+    <string name="pro_title">Pro version</string>
+    <string name="pro_features">Pro adds extend mode, the bubble level, the protractor, custom colours and tags, and removes the ad. Everything else — the ruler, all units and fractions, calibration, the log, export and share — stays free.</string>
+    <string name="pro_status_checking">Checking with Google Play…</string>
+    <string name="pro_status_locked">Not unlocked</string>
+    <string name="pro_status_unlocked">Unlocked</string>
+    <string name="pro_status_pending">Payment pending</string>
+    <string name="pro_status_unavailable">Google Play cannot be reached</string>
+    <string name="pro_price_format">One-time price: %1$s</string>
+    <string name="pro_price_unknown">Price not available from Play</string>
+    <string name="pro_purchase">Purchase</string>
+    <string name="pro_check_again">Check again</string>
+    <string name="pro_purchase_unsupported">This build cannot open the Play purchase sheet. The release build talks to Play.</string>
+    <string name="pro_play_note">The payment is handled by Google Play. The app collects no user data and has no account.</string>
+    <string name="pro_live_format">Pro status: %1$s</string>
+
+    <string name="log_title">Log</string>
+    <string name="log_search">Search</string>
+    <string name="log_empty">No measurements yet</string>
+    <string name="log_save_reading">Save this measurement</string>
+    <string name="log_save">Save</string>
+    <string name="log_delete">Delete</string>
+    <string name="log_label">Name</string>
+    <string name="log_note">Note</string>
+    <string name="log_row_format">%1$s %2$s</string>
+    <string name="log_tags_pro">Tags are part of Pro. The free log keeps the measurement, its name, your note and the date.</string>
+    <string name="log_tags">Tags, with commas between them</string>
+    <string name="log_export">Save as file</string>
+    <string name="log_share">Send as file</string>
+    <string name="log_export_saved_format">Saved as %1$s</string>
+    <string name="log_export_failed">Could not save the file</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_calibration_loading">Reading your ruler settings…</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_pro_title">Pro</string>
+    <string name="settings_pro_open">See what Pro adds</string>
+    <string name="settings_pro_unlocked">Pro unlocked</string>
+    <string name="settings_bezel_inset">Bezel inset (mm)</string>
+    <string name="settings_save_inset">Save inset</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+    <string name="theme_default">Free palette</string>
+    <string name="theme_high_contrast">High contrast</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="settings_custom_theme">Custom themes</string>
+    <string name="settings_custom_theme_pro">Custom themes are part of Pro. Light and dark are free and both pass the contrast checks.</string>
+    <string name="settings_haptics">Haptic tick feedback</string>
+    <string name="settings_font_scale_hint">This only changes how big the numbers look. The ruler itself stays the same length.</string>
+    <string name="settings_reset_calibration">Reset to the starting estimate</string>
+    <string name="settings_inset_hint">How far the drawn edge of the ruler is from the edge of your phone. Measurements start at the start line, so an object lined up with the phone edge is short by this amount.</string>
+    <string name="start_edge_format">Start line: %1$s mm from the phone edge</string>
+    <string name="start_edge_label">start %1$s</string>
+    <!-- Rule 14: a start line beyond the end of the screen leaves nothing to measure. Saying so is the
+         only way out that does not leave the user staring at a 0 reading or a greyed-out button. -->
+    <string name="start_edge_off_screen">The start line is past the end of this screen, so there is nothing to measure. In Settings, turn on Precise tools and set a smaller bezel inset.</string>
+    <!-- The plate's own label is the instruction the ruler screen is built around: the line is where the
+         object starts. "start 0" is a coordinate; "start here" is an action. -->
+    <string name="start_edge_label_simple">start here</string>
+    <string name="start_edge_label_simple_inset_format">start here, %1$s mm from the edge</string>
+
+    <!-- M15 (rule 12): the one switch that decides how much of the app is shown. -->
+    <string name="settings_group_mode">Simple mode</string>
+    <string name="settings_precise_tools">Precise tools</string>
+    <string name="settings_precise_tools_hint">Off keeps the app to the basics: the ruler, the reading and how accurate it is. On adds the technical controls — label size, the bezel inset, pixels per millimetre and the reference sizes.</string>
+    <string name="settings_group_accuracy_details">Accuracy details</string>
+    <string name="settings_haptics_simple">Buzz when a tick passes</string>
+
+    <string name="ruler_title">Ruler</string>
+    <!-- DESIGN.md §5.4: the caption is separate from the number, so the readout string is the value
+         and the unit only. That pair is language-neutral, which is why the German copy is identical
+         (see the allowed list in LocalisationTest). -->
+    <string name="ruler_readout_format">%1$s %2$s</string>
+    <string name="ruler_readout_approx_format">≈ %1$s %2$s (rounded)</string>
+    <!-- Rule 13: simple mode says the same thing without the ≈ glyph. -->
+    <string name="ruler_readout_approx_simple_format">%1$s %2$s (rounded)</string>
+    <string name="ruler_span_caption">Screen span</string>
+    <!-- M15 (rule 13): the big number is the length of the screen itself. "Screen span" does not say that. -->
+    <string name="ruler_span_caption_simple">This screen measures up to</string>
+    <!-- M17: once the user has drawn a span, the same big number is the length of their object. The
+         caption has to say which of the two it is, or a reading gets misread. -->
+    <string name="ruler_measured_caption">Measured span</string>
+    <string name="ruler_measured_caption_simple">You measured</string>
+    <string name="ruler_object_slider_label">How long is your object?</string>
+    <!-- M17: the one instruction a new install gets, on the screen the action happens on. -->
+    <string name="ruler_first_run_instruction">Put your object on the screen with one end on the start line. Touch the ruler where the object ends, or drag along it. The number is how long it is.</string>
+    <string name="ruler_first_run_dismiss">Got it</string>
+    <!-- TalkBack cannot see the plate, and the plate is where the physical alignment happens. Static on
+         purpose: a description that changed with the span would re-announce on every step of the drag. -->
+    <string name="ruler_plate_description">Ruler plate. The start line is on the left edge. Put the object on the screen with one end on that line, then touch or drag on the plate to move the measuring line to its other end.</string>
+    <string name="ruler_label_size">Label size</string>
+    <string name="error_budget_format">Error budget ±%1$s mm per 100 mm</string>
+    <!-- Rule 5: provenance and error budget in one line, next to the number they describe. -->
+    <string name="provenance_format">%1$s · ±%2$s mm per 100 mm</string>
+    <!-- Rule 13: the same fact as simple mode, stated so a reader who has never met the terms can act
+         on it. Both modes state it; only the words change. -->
+    <string name="ruler_accuracy_estimate_format">Usually within %1$s mm over 10 cm</string>
+    <string name="ruler_accuracy_calibrated_format">Accurate to about %1$s mm over 10 cm</string>
+    <string name="action_calibrate">Calibrate</string>
+    <string name="action_make_exact">Make it exact</string>
+    <string name="action_back">Back</string>
+
+    <string name="unit_mm">mm</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_inch">in</string>
+    <string name="mode_fraction">Fraction</string>
+    <string name="mode_decimal">Decimal</string>
+
+    <!-- Reviewer note: a density-derived value must never read as a calibration against a real object. -->
+    <string name="source_default">estimated from display</string>
+    <string name="source_card">card</string>
+    <string name="source_coin">coin</string>
+    <string name="source_manual">manual</string>
+
+    <!-- M16: the guided path. Three steps, millimetres only, and the drawing is the shape of the real
+         object so "make them match" is something anyone can do. -->
+    <string name="calibration_title">Make the ruler exact</string>
+    <string name="calibration_status_estimate">Right now the ruler is only a guess from your screen.</string>
+    <string name="calibration_status_card">Right now the ruler is tied to a bank card.</string>
+    <string name="calibration_status_coin">Right now the ruler is tied to a coin.</string>
+    <string name="calibration_status_manual">Right now the ruler is tied to a length you measured with a ruler.</string>
+    <string name="calibration_instruction_card">Put your card flat on the screen so its left edge is on the left line. Slide until the right line is exactly at the far edge of your card.</string>
+    <string name="calibration_instruction_coin">Put your coin flat on the screen so its left edge is on the left line. Slide until the circle is exactly the size of your coin.</string>
+    <string name="calibration_hint_manual">Measure the drawn line with a real ruler and type how many millimetres it is.</string>
+    <string name="calibration_type_first">Done works once you have typed a number.</string>
+    <string name="calibration_align_first_simple">Line the shape up with the real thing first. Done works once it matches.</string>
+    <string name="calibration_bar_label_simple">Make the shape the same size as the real object</string>
+    <string name="calibration_other_sizes">Other sizes</string>
+    <string name="calibration_done">Done</string>
+    <string name="calibration_too_long_simple_format">That is longer than this screen can draw — it measures %1$s mm across. Pick a smaller thing under Other sizes.</string>
+    <string name="calibration_taller_than_plate">Your card is taller than this box and that is fine. Only its left and right edges matter.</string>
+
+    <!-- Precise mode only: the same task with the numbers it is built from. -->
+    <string name="calibration_current_format">Current: %1$s px/mm (%2$s), ±%3$s mm per 100 mm</string>
+    <string name="calibration_device_format">Stored under device key: %1$s</string>
+    <string name="calibration_card">Bank card</string>
+    <string name="calibration_coin">Coin</string>
+    <string name="calibration_manual">Type a length</string>
+    <string name="calibration_measured_mm">Length in millimetres</string>
+    <string name="calibration_measured_px">Measured span: %1$s px</string>
+    <string name="calibration_bar_label">Adjust the measured span</string>
+    <string name="calibration_derived_format">Saves as: %1$s px/mm (%2$s), ±%3$s mm per 100 mm</string>
+    <string name="calibration_align_first">Align the reference first. Until you do, the numbers here are what the ruler uses now, not a new reading.</string>
+    <string name="calibration_too_long_format">A %1$s mm reference is longer than this screen measures (%2$s mm across). Choose a shorter reference to line up.</string>
+    <string name="calibration_save">Save calibration</string>
+    <string name="coin_label_format">%1$s %2$s</string>
+
+    <!-- M11V (DESIGN.md §6): the bar drives four destinations, and Extend / level / protractor are
+         reached from Tools. -->
+    <string name="nav_ruler">Ruler</string>
+    <string name="nav_tools">Tools</string>
+
+    <!-- M21 (roadmap rule 9): the first free tool joins the Pro ones here, so the sentence names both
+         halves — what costs money and what does not — rather than describing the page as all-Pro. -->
+    <string name="tools_body">Four tools. Ring size is free for everyone. Extend, bubble level and protractor are part of Pro; the ruler, units, calibration, log and export stay free.</string>
+    <string name="tools_ring_body">Measure the inside of a ring, or your finger with a strip of paper.</string>
+    <string name="tools_extend_body">Measure something longer than your screen, piece by piece.</string>
+    <string name="tools_level_body">Check whether a surface is flat, and which way it tips.</string>
+    <string name="tools_protractor_body">Measure the angle between two edges.</string>
+
+    <!-- DESIGN.md §9: an empty state says what ends it. -->
+    <string name="log_empty_state_body">Measure something on the Ruler screen, then tap Save this measurement.</string>
+    <!-- Rule 13: named for what the button does. It was the log's "Save this measurement" label on a
+         control that only opens the Ruler. -->
+    <string name="log_empty_state_action">Open the Ruler</string>
+    <string name="log_no_results_format">Nothing matches “%1$s”. You can search by name or note.</string>
+    <string name="log_edit_entry">Change</string>
+    <string name="log_edit_title">Change this measurement</string>
+    <!-- Rule 13: the export buttons write the whole log while a search shows only part of it, so the
+         screen says which one the file holds. -->
+    <string name="log_export_scope">Saving a file writes every measurement in the log, not only the ones this search shows.</string>
+    <string name="log_export_empty">There is nothing in the log to save yet.</string>
+    <!-- Rule 14: every state has a way out on the state itself. -->
+    <string name="log_clear_search">Clear search</string>
+    <string name="log_close">Close</string>
+    <!-- Delete has no undo, so the first tap only arms it and names what is at stake. -->
+    <string name="level_empty_state_body">Put the phone on a surface you trust and tap Set this as flat. After that, the angle is measured from that surface.</string>
+    <string name="protractor_angle_caption">Angle between edges</string>
+    <string name="level_bubble_direction_format">Bubble direction %1$s°</string>
+
+    <string name="pro_column_free">Free</string>
+
+    <!-- DESIGN.md §7: the controls that used to sit on the ruler screen. -->
+    <string name="settings_group_accuracy">How accurate it is</string>
+    <string name="settings_group_feedback">Feedback</string>
+    <string name="settings_group_about">About</string>
+    <string name="settings_px_per_mm_format">%1$s px per mm</string>
+    <string name="settings_source_format">Source: %1$s</string>
+    <string name="settings_show_intro">Show intro</string>
+    <string name="settings_about_version_format">Ruler %1$s</string>
+    <!-- Honest wording: the billing library adds INTERNET to the merged manifest
+         (docs/permissions-audit.md), so the app must not claim it has no network access at all. -->
+    <string name="settings_about_network_note">Measuring, the log and export work offline. The Pro unlock contacts Google Play, and the free version shows an occasional ad from Google.</string>
+
+    <!-- DESIGN.md §8: three pages. M17 rewrote them from selling the app to instructing the one action
+         the ruler screen asks for, and removed the page about error budgets and the route to
+         calibration: a user who has not measured anything yet has no reason to calibrate it first. -->
+    <string name="onboarding_page1_title">Start at the line</string>
+    <string name="onboarding_page1_body">Put the thing you want to measure flat on the screen. Its left end sits on the start line.</string>
+    <string name="onboarding_page2_title">Make the line as long as the thing</string>
+    <string name="onboarding_page2_body">Drag the slider until the blue line ends at the other end of what you are measuring.</string>
+    <string name="onboarding_page3_title">Read the number</string>
+    <string name="onboarding_page3_body">That number is how long it is. Save it if you want it back later.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip intro</string>
+    <string name="onboarding_start">Start measuring</string>
+    <string name="onboarding_step_format">Step %1$d of %2$d</string>
+    <string name="protractor_hint_second">Keep the same corner on the point where the edges meet and turn the phone onto the second edge. The angle follows you live. Tap Set second edge to hold it.</string>
+    <string name="protractor_hint_done">Angle held. Tap Measure again to start a new one from the phone’s current position.</string>
+    <string name="protractor_step_1_of_2">Step 1 of 2</string>
+    <string name="protractor_step_2_of_2">Step 2 of 2</string>
+    <string name="protractor_step_done">Done</string>
+    <string name="protractor_caption_tilt">Tilt from flat, live</string>
+    <string name="protractor_caption_live">Angle to the first edge, live</string>
+    <string name="protractor_measure_again">Measure again</string>
+    <string name="protractor_waiting">Waiting for the sensor…</string>
+    <string name="protractor_plate_description">Protractor dial from 0 to 360 degrees, with the first edge pointing right.</string>
+    <string name="ruler_saved_format">Saved %1$s to the log</string>
+    <string name="extend_add_format">Add %1$s mm</string>
+    <string name="extend_next_hint">Next: note the spot on the object under the mark (a pencil dot works), slide the phone until the start line sits on it, then add the next length.</string>
+    <string name="extend_mark_to_edge">Mark to screen edge</string>
+    <string name="extend_plate_description">Ruler plate with a movable mark. Touch or drag on the plate to move the mark to the end of the object. The amount you will add is on the Add button.</string>
+</resources>

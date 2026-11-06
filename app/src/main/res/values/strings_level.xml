@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bubble level (production pass). In its own file so the level can change without touching the shared
+     strings.xml that other screens are edited in. -->
+<resources>
+    <!-- Shown until the first real sensor reading, so the screen never says "Level 0°" about nothing. -->
+    <string name="level_waiting">Waiting for the sensor…</string>
+    <!-- The zero is an average over half a second, so the user is told to keep the phone still. -->
+    <string name="level_zeroing">Hold still…</string>
+    <string name="level_caption_tilt">Tilt from flat</string>
+    <string name="level_caption_tilt_zeroed">Tilt from your surface</string>
+    <string name="level_axes_format">Side to side %1$s° · Top to bottom %2$s°</string>
+    <!-- TalkBack: announced only when the status or the whole degree changes, never at sensor rate. -->
+    <string name="level_announce_level_format">Level, %1$s degrees</string>
+    <string name="level_announce_not_level_format">Not level, %1$s degrees</string>
+    <string name="level_zero_set">Surface set as flat</string>
+    <string name="level_zero_cleared">Flat setting removed</string>
+    <string name="level_undo">Undo</string>
+    <string name="level_zero_not_saved">Couldn\'t save. The flat setting works until you close the app.</string>
+</resources>

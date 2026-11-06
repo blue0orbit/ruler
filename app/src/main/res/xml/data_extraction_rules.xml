@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Cloud backup and device-to-device transfer on Android 12 and newer (android:dataExtractionRules).
+    The same rule as backup_rules.xml: the log and the settings travel, the per-device calibration does
+    not — a calibration describes one physical screen, so it is excluded from a transfer to a new phone
+    as well as from the cloud copy.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="datastore/calibration.preferences_pb" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="datastore/calibration.preferences_pb" />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Full translation (PLAN M10). Every string in values/strings.xml has an entry here so lint does
+     not report a partial translation. M15 (rule 13): the plain-language wording is translated as
+     plain language, not as a literal translation of the technical terms. -->
+<resources>
+    <string name="app_name">Lineal</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="nav_log">Protokoll</string>
+    <string name="nav_extend">Verlängern</string>
+
+    <string name="level_title">Wasserwaage</string>
+    <string name="level_pro_locked">Wasserwaage und Winkelmesser gehören zu Pro. Lineal, Einheiten, Kalibrierung, Protokoll und Export bleiben kostenlos.</string>
+    <string name="level_zero">Als gerade setzen</string>
+    <string name="level_clear_zero">Gerade-Einstellung löschen</string>
+    <string name="level_flat">Gerade</string>
+    <string name="level_not_flat">Nicht gerade</string>
+    <string name="level_direction_format">Richtung bergab: %1$s°</string>
+    <string name="level_accuracy_format">Wie sicher der Neigungswert ist: %1$s. Er ist meist innerhalb von etwa %2$s°.</string>
+    <string name="accuracy_high">hoch</string>
+    <string name="accuracy_medium">mittel</string>
+    <string name="accuracy_low">niedrig</string>
+    <string name="accuracy_unreliable">unzuverlässig</string>
+    <string name="accuracy_unknown">nicht gemeldet</string>
+    <string name="level_sensor_missing">Dieses Telefon hat keinen Neigungssensor, daher gibt es hier nichts zu lesen. Lineal, Protokoll und Export funktionieren weiterhin.</string>
+
+    <string name="protractor_title">Winkelmesser</string>
+    <string name="protractor_hint">Legen Sie das Telefon flach entlang der ersten Kante und tippen Sie auf Erste Kante setzen. Die gestrichelte Linie zeigt, wie das Telefon gerade geneigt ist.</string>
+    <string name="protractor_first_reference">Erste Kante setzen</string>
+    <string name="protractor_second_reference">Zweite Kante setzen</string>
+    <string name="protractor_clear">Neu beginnen</string>
+    <string name="protractor_angle_format">Winkel: %1$s° (%2$s gon)</string>
+    <string name="protractor_angle_simple_format">Winkel: %1$s°</string>
+
+    <string name="extend_title">Verlängerungsmodus</string>
+    <string name="extend_pro_locked">Der Verlängerungsmodus gehört zu Pro. Lineal, Einheiten, Kalibrierung, Protokoll und Export bleiben kostenlos.</string>
+    <string name="extend_hint">Legen Sie ein Ende des Gegenstands an die Startlinie. Tippen oder ziehen Sie auf dem Lineal, um die Markierung an das andere Ende zu bewegen, und tippen Sie dann auf Hinzufügen. Ist der Gegenstand länger als der Bildschirm, lassen Sie die Markierung am Bildschirmrand und fügen Sie das hinzu.</string>
+    <string name="extend_undo">Letzte Markierung zurücknehmen</string>
+    <string name="extend_total_format">Gesamt %1$s %2$s ± %3$s mm</string>
+    <string name="extend_total_simple_format">Gesamt: %1$s %2$s, plus oder minus %3$s mm</string>
+    <string name="extend_imperial_format">In Zoll: %1$s</string>
+    <string name="extend_estimate_note">Jede Markierung bringt einen kleinen Fehler dazu, daher ist der Gesamtwert eine Schätzung und keine Garantie.</string>
+    <string name="extend_segment_format">Markierung %1$d: %2$s mm</string>
+
+    <string name="pro_title">Pro-Version</string>
+    <string name="pro_features">Pro ergänzt Verlängerungsmodus, Wasserwaage, Winkelmesser, eigene Farben und Tags und entfernt die Anzeige. Alles andere — Lineal, alle Einheiten und Brüche, Kalibrierung, Protokoll, Export und Teilen — bleibt kostenlos.</string>
+    <string name="pro_status_checking">Wird bei Google Play geprüft…</string>
+    <string name="pro_status_locked">Nicht freigeschaltet</string>
+    <string name="pro_status_unlocked">Freigeschaltet</string>
+    <string name="pro_status_pending">Zahlung ausstehend</string>
+    <string name="pro_status_unavailable">Google Play ist nicht erreichbar</string>
+    <string name="pro_price_format">Einmaliger Preis: %1$s</string>
+    <string name="pro_price_unknown">Preis von Play nicht verfügbar</string>
+    <string name="pro_purchase">Kaufen</string>
+    <string name="pro_check_again">Erneut prüfen</string>
+    <string name="pro_purchase_unsupported">Dieser Build kann das Play-Kaufenster nicht öffnen. Der Release-Build spricht Play an.</string>
+    <string name="pro_play_note">Die Zahlung läuft über Google Play. Die App sammelt keine Nutzerdaten und hat kein Konto.</string>
+    <string name="pro_live_format">Pro-Status: %1$s</string>
+
+    <string name="log_title">Protokoll</string>
+    <string name="log_search">Suchen</string>
+    <string name="log_empty">Noch keine Messungen</string>
+    <string name="log_save_reading">Diese Messung speichern</string>
+    <string name="log_save">Speichern</string>
+    <string name="log_delete">Löschen</string>
+    <string name="log_label">Name</string>
+    <string name="log_note">Notiz</string>
+    <string name="log_row_format">%1$s %2$s</string>
+    <string name="log_tags_pro">Tags gehören zu Pro. Das kostenlose Protokoll behält die Messung, ihren Namen, Ihre Notiz und das Datum.</string>
+    <string name="log_tags">Tags, mit Kommas getrennt</string>
+    <string name="log_export">Als Datei speichern</string>
+    <string name="log_share">Als Datei senden</string>
+    <string name="log_export_saved_format">Gespeichert als %1$s</string>
+    <string name="log_export_failed">Die Datei konnte nicht gespeichert werden</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_calibration_loading">Ihre Lineal-Einstellungen werden gelesen…</string>
+    <string name="settings_units">Einheiten</string>
+    <string name="settings_pro_title">Pro</string>
+    <string name="settings_pro_open">Zeigen, was Pro ergänzt</string>
+    <string name="settings_pro_unlocked">Pro freigeschaltet</string>
+    <string name="settings_bezel_inset">Rahmenabstand (mm)</string>
+    <string name="settings_save_inset">Abstand speichern</string>
+    <string name="settings_theme">Farbschema</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_system">System</string>
+    <string name="theme_default">Kostenlose Palette</string>
+    <string name="theme_high_contrast">Hoher Kontrast</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="settings_custom_theme">Eigene Farbschemata</string>
+    <string name="settings_custom_theme_pro">Eigene Farbschemata gehören zu Pro. Hell und Dunkel sind kostenlos und bestehen beide die Kontrastprüfungen.</string>
+    <string name="settings_haptics">Haptische Rückmeldung bei Ticks</string>
+    <string name="settings_font_scale_hint">Das ändert nur, wie groß die Zahlen aussehen. Das Lineal selbst bleibt gleich lang.</string>
+    <string name="settings_reset_calibration">Auf die Ausgangsschätzung zurücksetzen</string>
+    <string name="settings_inset_hint">Wie weit der gezeichnete Rand des Lineals vom Telefonrand entfernt ist. Messungen beginnen an der Startlinie, ein Objekt am Telefonrand liegt daher um diesen Betrag zu kurz.</string>
+    <string name="start_edge_format">Startlinie: %1$s mm vom Telefonrand</string>
+    <string name="start_edge_label">Start %1$s</string>
+    <string name="start_edge_off_screen">Die Startlinie liegt jenseits des Bildschirmendes, daher gibt es nichts zu messen. Schalten Sie in den Einstellungen Präzise Werkzeuge ein und setzen Sie einen kleineren Rahmenabstand.</string>
+    <string name="start_edge_label_simple">hier anfangen</string>
+    <string name="start_edge_label_simple_inset_format">hier anfangen, %1$s mm vom Rand</string>
+
+    <string name="settings_group_mode">Einfacher Modus</string>
+    <string name="settings_precise_tools">Präzise Werkzeuge</string>
+    <string name="settings_precise_tools_hint">Aus lässt die App das Wesentliche: das Lineal, der Wert und wie genau er ist. An schaltet die technischen Regelungen dazu — Beschriftungsgröße, Rahmenabstand, Pixel pro Millimeter und die Referenzlängen.</string>
+    <string name="settings_group_accuracy_details">Genauigkeitsdetails</string>
+    <string name="settings_haptics_simple">Vibrieren, wenn eine Marke erreicht wird</string>
+
+    <string name="ruler_title">Lineal</string>
+    <string name="ruler_readout_format">%1$s %2$s</string>
+    <string name="ruler_readout_approx_format">≈ %1$s %2$s (gerundet)</string>
+    <string name="ruler_readout_approx_simple_format">%1$s %2$s (gerundet)</string>
+    <string name="ruler_span_caption">Bildschirmbreite</string>
+    <string name="ruler_span_caption_simple">Dieser Bildschirm misst bis zu</string>
+    <string name="ruler_measured_caption">Gemessene Länge</string>
+    <string name="ruler_measured_caption_simple">Sie haben gemessen</string>
+    <string name="ruler_object_slider_label">Wie lang ist Ihr Gegenstand?</string>
+    <string name="ruler_first_run_instruction">Legen Sie den Gegenstand mit einem Ende an die Startlinie auf den Bildschirm. Tippen Sie auf das Lineal, wo der Gegenstand endet, oder ziehen Sie daran entlang. Die Zahl ist seine Länge.</string>
+    <string name="ruler_first_run_dismiss">Verstanden</string>
+    <string name="ruler_plate_description">Linealfläche. Die Startlinie ist am linken Rand. Legen Sie den Gegenstand mit einem Ende an diese Linie und tippen oder ziehen Sie auf der Fläche, um die Messlinie an sein anderes Ende zu bewegen.</string>
+    <string name="ruler_label_size">Beschriftungsgröße</string>
+    <string name="error_budget_format">Fehlerbudget ±%1$s mm pro 100 mm</string>
+    <string name="provenance_format">%1$s · ±%2$s mm pro 100 mm</string>
+    <string name="ruler_accuracy_estimate_format">Meist innerhalb von %1$s mm auf 10 cm</string>
+    <string name="ruler_accuracy_calibrated_format">Genau bis etwa %1$s mm auf 10 cm</string>
+    <string name="action_calibrate">Kalibrieren</string>
+    <string name="action_make_exact">Genau machen</string>
+    <string name="action_back">Zurück</string>
+
+    <string name="unit_mm">mm</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_inch">Zoll</string>
+    <string name="mode_fraction">Bruch</string>
+    <string name="mode_decimal">Dezimal</string>
+
+    <string name="source_default">aus Display geschätzt</string>
+    <string name="source_card">Karte</string>
+    <string name="source_coin">Münze</string>
+    <string name="source_manual">manuell</string>
+
+    <string name="calibration_title">Lineal genau machen</string>
+    <string name="calibration_status_estimate">Im Moment ist das Lineal nur aus Ihrem Bildschirm geschätzt.</string>
+    <string name="calibration_status_card">Im Moment ist das Lineal an eine Bankkarte gebunden.</string>
+    <string name="calibration_status_coin">Im Moment ist das Lineal an eine Münze gebunden.</string>
+    <string name="calibration_status_manual">Im Moment ist das Lineal an eine Länge gebunden, die Sie selbst gemessen haben.</string>
+    <string name="calibration_instruction_card">Legen Sie Ihre Karte flach auf den Bildschirm, sodass ihre linke Kante auf der linken Linie liegt. Schieben Sie, bis die rechte Linie genau an der anderen Kante Ihrer Karte ist.</string>
+    <string name="calibration_instruction_coin">Legen Sie Ihre Münze flach auf den Bildschirm, sodass ihre linke Kante auf der linken Linie liegt. Schieben Sie, bis der Kreis genau so groß ist wie Ihre Münze.</string>
+    <string name="calibration_hint_manual">Messen Sie die gezeichnete Linie mit einem echten Lineal und geben Sie ein, wie viele Millimeter sie ist.</string>
+    <string name="calibration_type_first">Fertig funktioniert, sobald Sie eine Zahl eingegeben haben.</string>
+    <string name="calibration_align_first_simple">Richten Sie zuerst die Form an dem echten Gegenstand aus. Fertig funktioniert, wenn sie übereinstimmt.</string>
+    <string name="calibration_bar_label_simple">Die Form so groß machen wie den echten Gegenstand</string>
+    <string name="calibration_other_sizes">Andere Größen</string>
+    <string name="calibration_done">Fertig</string>
+    <string name="calibration_too_long_simple_format">Das ist länger als dieser Bildschirm zeichnen kann — er misst %1$s mm in der Breite. Wählen Sie unter Andere Größen etwas Kleineres.</string>
+    <string name="calibration_taller_than_plate">Ihre Karte ist höher als dieses Feld — das ist in Ordnung. Nur ihre linke und rechte Kante zählen.</string>
+
+    <string name="calibration_current_format">Aktuell: %1$s px/mm (%2$s), ±%3$s mm pro 100 mm</string>
+    <string name="calibration_device_format">Gespeichert unter Geräteschlüssel: %1$s</string>
+    <string name="calibration_card">Bankkarte</string>
+    <string name="calibration_coin">Münze</string>
+    <string name="calibration_manual">Länge eingeben</string>
+    <string name="calibration_measured_mm">Länge in Millimetern</string>
+    <string name="calibration_measured_px">Gemessene Spannweite: %1$s px</string>
+    <string name="calibration_bar_label">Gemessene Spannweite anpassen</string>
+    <string name="calibration_derived_format">Gespeichert als: %1$s px/mm (%2$s), ±%3$s mm per 100 mm</string>
+    <string name="calibration_align_first">Richten Sie zuerst die Referenz aus. Bis dahin sind die Zahlen hier das, was das Lineal jetzt verwendet, keine neue Messung.</string>
+    <string name="calibration_too_long_format">Eine Referenz von %1$s mm ist länger als dieser Bildschirm gemessen werden kann (%2$s mm Breite). Bitte kürzere Referenz zum Ausrichten wählen.</string>
+    <string name="calibration_save">Kalibrierung speichern</string>
+    <string name="coin_label_format">%1$s %2$s</string>
+
+    <string name="nav_ruler">Lineal</string>
+    <string name="nav_tools">Werkzeuge</string>
+
+    <string name="tools_body">Vier Werkzeuge. Ringgröße ist für alle kostenlos. Verlängerungsmodus, Wasserwaage und Winkelmesser gehören zu Pro; Lineal, Einheiten, Kalibrierung, Protokoll und Export bleiben kostenlos.</string>
+    <string name="tools_ring_body">Die Innenseite eines Rings messen – oder den Finger mit einem Papierstreifen.</string>
+    <string name="tools_extend_body">Messen Sie etwas, das länger als Ihr Bildschirm ist — Stück für Stück.</string>
+    <string name="tools_level_body">Prüfen, ob eine Fläche gerade liegt, und in welche Richtung sie kippt.</string>
+    <string name="tools_protractor_body">Den Winkel zwischen zwei Kanten messen.</string>
+
+    <string name="log_empty_state_body">Messen Sie etwas auf der Lineal-Seite und tippen Sie dann auf Diese Messung speichern.</string>
+    <string name="log_empty_state_action">Lineal öffnen</string>
+    <string name="log_no_results_format">Nichts passt zu „%1$s“. Sie können nach Name oder Notiz suchen.</string>
+    <string name="log_edit_entry">Ändern</string>
+    <string name="log_edit_title">Diese Messung ändern</string>
+    <string name="log_export_scope">Beim Speichern einer Datei werden alle Messungen im Protokoll geschrieben, nicht nur die, die diese Suche zeigt.</string>
+    <string name="log_export_empty">Im Protokoll ist noch nichts zum Speichern.</string>
+    <string name="log_clear_search">Suche löschen</string>
+    <string name="log_close">Schließen</string>
+    <string name="level_empty_state_body">Legen Sie das Telefon auf eine Fläche, der Sie vertrauen, und tippen Sie auf Als gerade setzen. Danach wird der Winkel von dieser Fläche aus gemessen.</string>
+    <string name="protractor_angle_caption">Winkel zwischen Kanten</string>
+    <string name="level_bubble_direction_format">Blasenrichtung %1$s°</string>
+
+    <string name="pro_column_free">Kostenlos</string>
+
+    <string name="settings_group_accuracy">Wie genau es ist</string>
+    <string name="settings_group_feedback">Rückmeldung</string>
+    <string name="settings_group_about">Über die App</string>
+    <string name="settings_px_per_mm_format">%1$s px pro mm</string>
+    <string name="settings_source_format">Quelle: %1$s</string>
+    <string name="settings_show_intro">Einführung anzeigen</string>
+    <string name="settings_about_version_format">Ruler-Version %1$s</string>
+    <string name="settings_about_network_note">Messen, Protokoll und Export funktionieren offline. Die Pro-Freischaltung kontaktiert Google Play, und die kostenlose Version zeigt gelegentlich eine Anzeige von Google.</string>
+
+    <string name="onboarding_page1_title">An der Linie anfangen</string>
+    <string name="onboarding_page1_body">Legen Sie den Gegenstand, den Sie messen wollen, flach auf den Bildschirm. Sein linkes Ende liegt auf der Startlinie.</string>
+    <string name="onboarding_page2_title">Die Linie so lang machen wie den Gegenstand</string>
+    <string name="onboarding_page2_body">Schieben Sie den Regler, bis die blaue Linie am anderen Ende Ihres Gegenstands endet.</string>
+    <string name="onboarding_page3_title">Die Zahl ablesen</string>
+    <string name="onboarding_page3_body">Diese Zahl ist seine Länge. Speichern Sie sie, wenn Sie sie später brauchen.</string>
+    <string name="onboarding_next">Weiter</string>
+    <string name="onboarding_skip">Einführung überspringen</string>
+    <string name="onboarding_start">Jetzt messen</string>
+    <string name="onboarding_step_format">Schritt %1$d von %2$d</string>
+    <string name="protractor_hint_second">Halten Sie dieselbe Ecke auf dem Punkt, an dem sich die Kanten treffen, und drehen Sie das Telefon auf die zweite Kante. Der Winkel folgt live. Tippen Sie auf Zweite Kante setzen, um ihn festzuhalten.</string>
+    <string name="protractor_hint_done">Winkel festgehalten. Tippen Sie auf Neu messen, um von der aktuellen Lage des Telefons neu zu beginnen.</string>
+    <string name="protractor_step_1_of_2">Schritt 1 von 2</string>
+    <string name="protractor_step_2_of_2">Schritt 2 von 2</string>
+    <string name="protractor_step_done">Fertig</string>
+    <string name="protractor_caption_tilt">Neigung gegenüber flach, live</string>
+    <string name="protractor_caption_live">Winkel zur ersten Kante, live</string>
+    <string name="protractor_measure_again">Neu messen</string>
+    <string name="protractor_waiting">Warte auf den Sensor…</string>
+    <string name="protractor_plate_description">Winkelmesser-Skala von 0 bis 360 Grad, die erste Kante zeigt nach rechts.</string>
+    <string name="ruler_saved_format">%1$s im Protokoll gespeichert</string>
+    <string name="extend_add_format">%1$s mm hinzufügen</string>
+    <string name="extend_next_hint">Als Nächstes: Merken Sie sich die Stelle am Gegenstand unter der Markierung (ein Bleistiftpunkt reicht), schieben Sie das Telefon, bis die Startlinie darauf steht, und fügen Sie die nächste Länge hinzu.</string>
+    <string name="extend_mark_to_edge">Markierung an den Rand</string>
+    <string name="extend_plate_description">Linealfläche mit beweglicher Markierung. Tippen oder ziehen Sie auf der Fläche, um die Markierung an das Ende des Gegenstands zu bewegen. Der hinzuzufügende Betrag steht auf der Schaltfläche Hinzufügen.</string>
+</resources>

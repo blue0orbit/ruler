@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M21 (ROADMAP): "ring size" is the highest-volume search term this app can serve honestly.
+         Free tool, reached from Tools; it is a detail screen, so it never shows the ad (rule 10 of the
+         roadmap's ad rules). -->
+    <string name="ring_title">Ring size</string>
+    <string name="ring_body">Measure a ring, or your finger with a strip of paper, and get the size in the systems jewellers use.</string>
+
+    <string name="ring_method_ring">Ring</string>
+    <string name="ring_method_finger">Finger</string>
+    <string name="ring_method_ring_hint">Lay the ring flat on the plate. Drag on the plate until the drawn circle is exactly as wide as the inside edge of the ring.</string>
+    <string name="ring_method_finger_hint">Wrap a strip of paper round your finger and mark where it overlaps. Lay the strip on the ruler and move the line until it ends at the mark.</string>
+
+    <string name="ring_diameter_caption">Inside the ring</string>
+    <!-- Before the first drag there is no number, so the readout row says that instead of a 0 that
+         would read as a measurement of a zero-length ring. -->
+    <string name="ring_waiting">Nothing measured yet</string>
+    <string name="ring_span_caption">Length of the paper strip</string>
+    <string name="ring_sizes_caption">Ring size in each system</string>
+
+    <!-- The four systems, named for the places that use them rather than for an abstract standard. -->
+    <string name="ring_system_us">US / Canada</string>
+    <string name="ring_system_uk">UK / Australia</string>
+    <string name="ring_system_eu">EU / ISO</string>
+    <string name="ring_system_jp">Japan</string>
+
+    <string name="ring_between_format">between %1$s and %2$s</string>
+    <string name="ring_size_range_format">%1$s to %2$s</string>
+    <!-- Rule 5 with rule 13: the reading always says how far it can be trusted, in words rather than
+         in a ± symbol. -->
+    <string name="ring_accuracy_calibrated_format">Certain to about %1$s of a size</string>
+    <string name="ring_needs_calibration">Make the ruler exact first. One ring size is 1 mm apart, and a ruler that is only a guess from your screen is about three sizes out.</string>
+    <string name="ring_off_scale_below">That circle is smaller than the smallest size the size chart publishes.</string>
+    <string name="ring_off_scale_above">That circle is bigger than any size the size chart publishes.</string>
+    <!-- Rule 14: the paper method has a limit this screen cannot go past, so the limit is stated with
+         the way round it rather than the line simply stopping. -->
+    <string name="ring_span_too_short_format">This screen can only draw %1$s mm of paper, so the paper method reaches size %2$s at most. Use the ring method, or measure on a bigger screen.</string>
+
+    <string name="ring_circle_plate_description">Circle plate. Drag on the plate to make the drawn circle exactly as wide as the inside of your ring.</string>
+    <string name="ring_span_plate_description">Ruler plate with a measuring line. Lay the paper strip on the screen and move the line to the mark on it.</string>
+    <string name="ring_circle_slider_label">How wide is the inside of the ring?</string>
+    <string name="ring_span_slider_label">How long is the paper strip?</string>
+    <!-- Short words, because these are buttons: a whole sentence ("One size smaller") ellipsized out of
+         a half-width button at 200 % font scale, and an ellipsized action is one the user cannot read. -->
+    <string name="ring_step_down">Smaller</string>
+    <string name="ring_step_up">Larger</string>
+
+    <string name="ring_save">Save this ring size</string>
+    <string name="ring_saved_format">Saved ring size %1$s</string>
+    <!-- The log row names both facts: the length that was drawn, and what it meant as a size. -->
+    <string name="ring_log_label_format">Ring size %1$s (%2$s)</string>
+    <string name="ring_note">Sizes come from published size charts. An EU size is the inside circumference in millimetres, a US size counts steps of 0.8 millimetres, a UK size is a letter, and a Japanese size counts thirds of a millimetre.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon background (DESIGN.md §11): the dark `background` token with one 1 dp band at the
+    lower third. Flat, no gradient — the plate is the object, and a gradient behind it would read as
+    decoration on a measuring instrument. M19 (design-concept/): the band follows the dark palette's
+    new substrate (#111417) and surfaceElevated (#222428).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FF111417"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <path
+        android:fillColor="#FF222428"
+        android:pathData="M0,72 L108,72 L108,73 L0,73 Z" />
+</vector>

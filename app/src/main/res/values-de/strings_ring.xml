@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The German voice of this app is the formal "Sie" (see `ruler_first_run_instruction`), so the
+         instructions here use it too rather than a second, friendlier register. -->
+    <string name="ring_title">Ringgröße</string>
+    <string name="ring_body">Messen Sie die Innenseite eines Rings oder mit einem Papierstreifen Ihren Finger und sehen Sie die Größe in den Systemen, die Juweliere benutzen.</string>
+
+    <string name="ring_method_ring">Ring</string>
+    <string name="ring_method_finger">Finger</string>
+    <string name="ring_method_ring_hint">Legen Sie den Ring flach auf die Fläche. Ziehen Sie auf der Fläche, bis der gezeichnete Kreis genau so breit ist wie die Innenseite des Rings.</string>
+    <string name="ring_method_finger_hint">Wickeln Sie einen Papierstreifen um Ihren Finger und markieren Sie die Stelle, wo er sich überlappt. Legen Sie den Streifen aufs Lineal und schieben Sie die Linie bis zu der Markierung.</string>
+
+    <string name="ring_diameter_caption">Innenseite des Rings</string>
+    <string name="ring_waiting">Noch nichts gemessen</string>
+    <string name="ring_span_caption">Länge des Papierstreifens</string>
+    <string name="ring_sizes_caption">Ringgröße in jedem System</string>
+
+    <string name="ring_system_us">USA / Kanada</string>
+    <string name="ring_system_uk">Großbritannien / Australien</string>
+    <string name="ring_system_eu">EU / ISO</string>
+    <string name="ring_system_jp">Japan</string>
+
+    <string name="ring_between_format">zwischen %1$s und %2$s</string>
+    <string name="ring_size_range_format">%1$s bis %2$s</string>
+    <string name="ring_accuracy_calibrated_format">Genau auf etwa %1$s einer Größe</string>
+    <string name="ring_needs_calibration">Machen Sie das Lineal erst genau. Eine Ringgröße ist 1 mm entfernt, und ein Lineal, das nur eine Schätzung von Ihrem Bildschirm ist, liegt etwa drei Größen daneben.</string>
+    <string name="ring_off_scale_below">Der Kreis ist kleiner als die kleinste Größe, die die Größentabelle ausweist.</string>
+    <string name="ring_off_scale_above">Der Kreis ist weiter als jede Größe, die die Größentabelle ausweist.</string>
+    <string name="ring_span_too_short_format">Dieser Bildschirm kann nur %1$s mm Papier zeichnen, damit reicht die Papiermethode höchstens bis Größe %2$s. Benutzen Sie die Ringmethode oder messen Sie auf einem größeren Bildschirm.</string>
+
+    <string name="ring_circle_plate_description">Kreisfläche. Ziehen Sie auf der Fläche, bis der gezeichnete Kreis genau so breit ist wie die Innenseite Ihres Rings.</string>
+    <string name="ring_span_plate_description">Linealfläche mit Messlinie. Legen Sie den Papierstreifen auf den Bildschirm und schieben Sie die Linie bis zur Markierung.</string>
+    <string name="ring_circle_slider_label">Wie breit ist die Innenseite des Rings?</string>
+    <string name="ring_span_slider_label">Wie lang ist der Papierstreifen?</string>
+    <string name="ring_step_down">Kleiner</string>
+    <string name="ring_step_up">Größer</string>
+
+    <string name="ring_save">Ringgröße speichern</string>
+    <string name="ring_saved_format">Ringgröße %1$s gespeichert</string>
+    <string name="ring_log_label_format">Ringgröße %1$s (%2$s)</string>
+    <string name="ring_note">Die Größen stammen aus veröffentlichten Größentabellen. Eine EU-Größe ist der Innenumfang in Millimetern, eine US-Größe zählt Schritte von 0,8 Millimetern, eine britische Größe ist ein Buchstabe und eine japanische Größe zählt Drittel von Millimetern.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App shell and Pro purchase feedback (production pass). German twin: values-de/strings_shell.xml. -->
+<resources>
+    <!-- The purchase tap did not open the Play sheet: each reason gets its own true sentence. -->
+    <string name="pro_problem_play_unreachable">Google Play isn\'t reachable right now. Try again in a moment.</string>
+    <string name="pro_problem_offer_not_loaded">Google Play hasn\'t sent the Pro offer yet. Try again in a moment.</string>
+    <!-- "Check again" results, shown as a message. -->
+    <string name="pro_check_asked">Asked Google Play again. The status above shows its answer.</string>
+    <string name="pro_check_no_play">This build doesn\'t connect to Google Play. The release build does.</string>
+</resources>

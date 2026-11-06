@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Dark system theme: the window is the dark palette's background (ColorSafePalette.DARK, #111417)
+        from the very first frame. Without this a cold start in dark mode flashed the light window
+        background before Compose painted the dark palette.
+    -->
+    <style name="Theme.Ruler" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF111417</item>
+        <item name="android:colorBackground">#FF111417</item>
+    </style>
+</resources>

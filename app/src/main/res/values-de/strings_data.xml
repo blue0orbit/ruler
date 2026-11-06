@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- German twin of values/strings_data.xml: same names, same placeholders (LocalisationTest). -->
+<resources>
+    <string name="message_undo">Rückgängig</string>
+    <string name="message_calibration_saved">Kalibrierung gespeichert</string>
+    <string name="message_calibration_save_failed">Die Kalibrierung konnte nicht gespeichert werden</string>
+    <string name="message_calibration_reset">Zurück zur Ausgangsschätzung</string>
+    <string name="message_inset_saved">Rahmenabstand gespeichert</string>
+    <string name="message_log_deleted">Messung gelöscht</string>
+    <string name="message_log_saved">Gespeichert</string>
+    <string name="message_log_save_failed">Die Änderung konnte nicht gespeichert werden. Die Messung ist nicht mehr im Protokoll.</string>
+    <string name="message_log_restore_failed">Die Messung konnte nicht wiederhergestellt werden</string>
+    <string name="settings_inset_invalid_format">Geben Sie eine Zahl von 0 bis %1$s mm ein, zum Beispiel 1,5</string>
+    <string name="log_share_chooser">Protokoll senden mit</string>
+    <string name="log_export_no_app">Auf diesem Telefon kann keine App eine Datei speichern</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App-Rahmen und Rückmeldungen zum Pro-Kauf. Englische Vorlage: values/strings_shell.xml. -->
+<resources>
+    <string name="pro_problem_play_unreachable">Google Play ist gerade nicht erreichbar. Versuche es gleich noch einmal.</string>
+    <string name="pro_problem_offer_not_loaded">Google Play hat das Pro-Angebot noch nicht geliefert. Versuche es gleich noch einmal.</string>
+    <string name="pro_check_asked">Google Play wurde erneut gefragt. Der Status oben zeigt die Antwort.</string>
+    <string name="pro_check_no_play">Dieser Build verbindet sich nicht mit Google Play. Der Release-Build tut das.</string>
+</resources>

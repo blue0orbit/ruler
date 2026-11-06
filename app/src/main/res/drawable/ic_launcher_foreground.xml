@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon foreground (DESIGN.md §11): a ruler plate seen flat, rotated 12°, with four ticks of
+    rising height and an accent start line carrying the same triangle stop the ruler screen draws at
+    zero. Same silhouette as the nav ruler glyph in core/ui/Icons.kt, so the icon and the UI agree.
+
+    108 dp viewport; every drawn point sits inside the 66 dp safe zone (x/y 21..87) so no launcher mask
+    can cut the artwork. Vector only — no PNG set, no export step.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:name="plate"
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="12">
+
+        <!-- Plate outline. -->
+        <path
+            android:pathData="M25,40 L83,40 L83,68 L25,68 Z"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineJoin="miter" />
+
+        <!-- Four ticks of rising height: the tick hierarchy, 0.6 / 0.8 / 1.0 / 1.4 scaled to the icon. -->
+        <path
+            android:pathData="M40,66 L40,60"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="1.4" />
+        <path
+            android:pathData="M50,66 L50,57"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="1.8" />
+        <path
+            android:pathData="M60,66 L60,54"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="2.2" />
+        <path
+            android:pathData="M70,66 L70,51"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="2.6" />
+
+        <!-- Accent start line: the zero of the ruler. Brass at M19 (design-concept/), the same
+             accent the ruler plate draws. -->
+        <path
+            android:pathData="M32,66 L32,44"
+            android:strokeColor="#FFD4AF37"
+            android:strokeWidth="2.4" />
+        <!-- The zero stop, pointing down from the top of the start line. -->
+        <path
+            android:fillColor="#FFD4AF37"
+            android:pathData="M28.5,44 L35.5,44 L32,49.5 Z" />
+    </group>
+</vector>

@@ -1,0 +1,37 @@
+# Builds and private configuration
+**/build/
+.gradle/
+.kotlin/
+local.properties
+keystore.properties
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+google-services.json
+service-account*.json
+# Editors and operating system
+.idea/
+.vscode/
+*.iml
+.cxx/
+.externalNativeBuild/
+.DS_Store
+Thumbs.db
+*.log
+# Private working material
+shots/
+captures/
+docs/
+research/
+design-concept/
+.*
+!.gitignore
+!.gitattributes
