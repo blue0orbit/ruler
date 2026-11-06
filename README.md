@@ -6,6 +6,25 @@ Created by [blue0orbit](https://x.com/blue0orbit). Open source under the [MIT li
 
 [Follow the project on X](https://x.com/blue0orbit) · [Explore the features](#features) · [Build it yourself](#build-and-run) · [Contribute](#get-involved)
 
+## See it in action
+
+![Ruler app showcase: on-screen measuring, calibration, ring sizing, tools, settings, and dark mode](assets/ruler-showcase.gif)
+
+Captured from the app on a real Android phone. Phone status and navigation bars are cropped out. The ring-sizing screen shows its calibration requirement; Pro tools appear in the tools menu.
+
+<details>
+<summary>View individual screenshots</summary>
+
+| Ruler | Calibration | Ring sizing |
+| --- | --- | --- |
+| ![Ruler](assets/screenshots/01-ruler.png) | ![Calibration](assets/screenshots/05-calibration.png) | ![Ring sizing](assets/screenshots/03-ring.png) |
+
+| Tools | Settings | Dark mode |
+| --- | --- | --- |
+| ![Tools](assets/screenshots/02-tools.png) | ![Settings](assets/screenshots/04-settings.png) | ![Dark mode](assets/screenshots/06-ruler-dark.png) |
+
+</details>
+
 ## Features
 
 ### Ruler and calibration
